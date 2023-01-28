@@ -17,6 +17,7 @@ const Banner = (props: Props) => {
         setRangeHigh(Math.max(low, high));
     }
 
+    
   return (
     
     <div className='sm:px-20 px-6 pt-14 z-10'>
