@@ -6,7 +6,7 @@ type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <div className='px-20 pt-10 flex space-x-4 items-center'>
+    <div className='sm:px-20 px-6 pt-10 flex space-x-4 items-center'>
         <Image className='rounded-full' src={horizonLogo} width={30} height={30} alt="HorizonLogo" />
         <p className='font-bold text-lg'>Horizon<span className='text-horizon'>.</span></p>
     </div>

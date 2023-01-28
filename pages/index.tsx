@@ -8,7 +8,7 @@ export default function Home() {
     <div className="h-screen w-full">
       <Header/>
       <Banner/>
-      <Image className='w-1/2 top-0 right-0 fixed' src={bannerImage} alt="bannerImage" />
+      <Image className='w-1/2 invisible sm:visible top-0 right-0 fixed' src={bannerImage} alt="bannerImage" />
     </div>
   )
 }
