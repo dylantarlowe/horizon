@@ -12,7 +12,8 @@ module.exports = {
       colors: {
         'horizon': '#FE5A4C',
         'gray-400': '#A0A7B3',
-        'gray-300': '#F2F6FC'
+        'gray-300': '#F2F6FC',
+        'white': '#FFFFFF',
       },
     extend: {},
   },
